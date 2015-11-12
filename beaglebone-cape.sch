@@ -29,16 +29,19 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:beagleboard
+LIBS:relays
+LIBS:w_relay
+LIBS:beaglebone-cape-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "BeagleBone Door Lock Cape"
 Date "2015-11-08"
 Rev "1.0"
 Comp "Shawn Wilson"
-Comment1 ""
+Comment1 "License: GPL v3, https://github.com/bubbapizza/BBBdc"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -437,7 +440,7 @@ L CONN_02X02 P?
 U 1 1 563FB879
 P 6600 5950
 F 0 "P?" H 6600 6100 50  0000 C CNN
-F 1 "CONN_02X02" H 6600 5800 50  0000 C CNN
+F 1 "DIP SWITCHES" H 6600 5800 50  0000 C CNN
 F 2 "" H 6600 4750 60  0000 C CNN
 F 3 "" H 6600 4750 60  0000 C CNN
 	1    6600 5950
@@ -838,5 +841,7 @@ S 7950 1550 1700 1100
 U 56401355
 F0 "LOCK_RELAYS" 60
 F1 "lock_relays.sch" 60
+F2 "GPIO1_15" I L 7950 1950 60 
+F3 "GPIO0_27" I L 7950 2100 60 
 $EndSheet
 $EndSCHEMATC
