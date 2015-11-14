@@ -1,4 +1,4 @@
-update=Sat 14 Nov 2015 11:56:37 AM EST
+update=Sat 14 Nov 2015 02:34:52 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -57,7 +57,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=lib;lib/e_switch
+LibDir=lib;lib/e_switch;lib/relays;lib/w_relay
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -89,6 +89,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=beagleboard
-LibName31=/home/shawn/src/kicad-library/library/relays
-LibName32=lib/w_relay
-LibName33=lib/e_switch/switch_dpdt
+LibName31=lib/e_switch/switch_dpdt
+LibName32=lib/relays/relays
+LibName33=lib/w_relay/w_relay
