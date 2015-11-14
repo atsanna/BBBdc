@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:beagleboard
 LIBS:relays
 LIBS:w_relay
+LIBS:switch_dpdt
 LIBS:beaglebone-cape-cache
 EELAYER 25 0
 EELAYER END

@@ -1,4 +1,4 @@
-update=Fri 13 Nov 2015 06:01:51 PM EST
+update=Sat 14 Nov 2015 11:56:37 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -45,9 +45,19 @@ LibName15=pga_sockets
 LibName16=beagleboard
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=lib
+LibDir=lib;lib/e_switch
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -81,13 +91,4 @@ LibName29=valves
 LibName30=beagleboard
 LibName31=/home/shawn/src/kicad-library/library/relays
 LibName32=lib/w_relay
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName33=lib/e_switch/switch_dpdt
