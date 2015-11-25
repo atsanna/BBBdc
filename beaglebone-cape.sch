@@ -32,6 +32,7 @@ LIBS:beagleboard
 LIBS:switch_dpdt
 LIBS:relays
 LIBS:w_relay
+LIBS:beaglebone-cape-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -39,7 +40,7 @@ encoding utf-8
 Sheet 1 2
 Title "BeagleBone Door Lock Cape"
 Date "2015-11-17"
-Rev "1.1"
+Rev "1.11"
 Comp "Shawn Wilson, Rob Caruso"
 Comment1 "License: GPL v3, https://github.com/bubbapizza/BBBdc"
 Comment2 ""
