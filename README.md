@@ -11,6 +11,7 @@ The cape has the following features:
 * Jumpers for configuring door strike or door magnet (NO/NC)
 * GPIO inputs for detecting status of door and/or detecting relay failure
 * 24C16 EEPROM w/ address configurable via jumpers
+* Realtime clock
 
 
 ![BareBone Cape](beaglebone-cape.png)
