@@ -35,16 +35,16 @@ LIBS:w_relay
 LIBS:beaglebone-cape-cache
 EELAYER 25 0
 EELAYER END
-$Descr A 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "BeagleBone Door Lock Cape"
-Date "2015-11-17"
-Rev "1.11"
-Comp "Shawn Wilson, Rob Caruso"
+Date "2015-11-25"
+Rev "2.0"
+Comp ""
 Comment1 "License: GPL v3, https://github.com/bubbapizza/BBBdc"
-Comment2 ""
-Comment3 ""
+Comment2 "Drawn by Shawn Wilson"
+Comment3 "Design by Rob Caruso"
 Comment4 ""
 $EndDescr
 Text Label 4150 4850 2    60   ~ 0
@@ -509,7 +509,7 @@ L CP1_Small C2
 U 1 1 563FD9A8
 P 1900 2100
 F 0 "C2" H 1910 2170 50  0000 L CNN
-F 1 "0.1 uF" H 1910 2020 50  0000 L CNN
+F 1 "0.3 uF" H 1910 2020 50  0000 L CNN
 F 2 "" H 1900 2100 60  0000 C CNN
 F 3 "" H 1900 2100 60  0000 C CNN
 	1    1900 2100
@@ -555,7 +555,7 @@ Connection ~ 1900 2350
 Wire Wire Line
 	2800 1850 3300 1850
 Wire Wire Line
-	2900 2000 2900 1850
+	2900 1250 2900 2000
 Connection ~ 2900 1850
 Wire Wire Line
 	2900 2350 2900 2200
@@ -898,12 +898,12 @@ Wire Wire Line
 $Comp
 L PWR_FLAG #FLG08
 U 1 1 564C88DD
-P 1900 1500
-F 0 "#FLG08" H 1900 1595 50  0001 C CNN
-F 1 "PWR_FLAG" H 1900 1680 50  0000 C CNN
-F 2 "" H 1900 1500 60  0000 C CNN
-F 3 "" H 1900 1500 60  0000 C CNN
-	1    1900 1500
+P 1900 1400
+F 0 "#FLG08" H 1900 1495 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 1580 50  0000 C CNN
+F 2 "" H 1900 1400 60  0000 C CNN
+F 3 "" H 1900 1400 60  0000 C CNN
+	1    1900 1400
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1900 1500
@@ -998,4 +998,26 @@ F 3 "" H 2400 3350 60  0000 C CNN
 $EndComp
 Connection ~ 2400 3350
 NoConn ~ 4150 5050
+$Comp
+L +5V #PWR?
+U 1 1 5656B572
+P 2900 1250
+F 0 "#PWR?" H 2900 1100 50  0001 C CNN
+F 1 "+5V" H 2900 1390 50  0000 C CNN
+F 2 "" H 2900 1250 60  0000 C CNN
+F 3 "" H 2900 1250 60  0000 C CNN
+	1    2900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5656B672
+P 2900 1400
+F 0 "#FLG?" H 2900 1495 50  0001 C CNN
+F 1 "PWR_FLAG" H 2900 1580 50  0000 C CNN
+F 2 "" H 2900 1400 60  0000 C CNN
+F 3 "" H 2900 1400 60  0000 C CNN
+	1    2900 1400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
