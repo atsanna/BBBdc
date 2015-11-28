@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AZ822
+F doc/az822.pdf
+$ENDCMP
+#
 $CMP HSSR-8200
 D 200V/160ohm small signal solid state relay
 $ENDCMP
@@ -42,6 +46,10 @@ $ENDCMP
 $CMP RELAY_9002
 D Coto 9002 series relay
 K relay 9002
+$ENDCMP
+#
+$CMP RELAY_DPDT
+F doc/az822.pdf
 $ENDCMP
 #
 $CMP RELAY_HB
