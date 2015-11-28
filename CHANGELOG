@@ -1,0 +1,4 @@
+schematic v2.1, released Nov 28, 2015:
+    - Added opto-isolators on pins for reading relay status
+    - cleanup labels, etc. so ERC passes
+    - Fix RELAY_DPDT picture so relays are disengaged
