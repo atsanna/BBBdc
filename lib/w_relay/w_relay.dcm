@@ -1,11 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
 $CMP AZ822
 F doc/az822.pdf
 $ENDCMP
 #
 $CMP HSSR-8200
 D 200V/160ohm small signal solid state relay
+$ENDCMP
+#
+$CMP JW2SN-DC5V
+D DPDT Relay 5V
+K dpdt relay
+F doc/panasonic_jw_relay.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP RELAY_34.51
@@ -116,6 +140,12 @@ $ENDCMP
 $CMP RELAY_V23101-D1
 D V23101-D1 relay
 K relay V23101-D1
+$ENDCMP
+#
+$CMP V7805-2000
+D Non-Isolated Switching Regulator +5V
+K POWER REGUL
+F doc/v78xx-2000.pdf
 $ENDCMP
 #
 #End Doc Library
