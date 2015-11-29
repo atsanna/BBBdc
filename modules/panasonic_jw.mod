@@ -1,0 +1,79 @@
+PCBNEW-LibModule-V1  Sun 29 Nov 2015 10:11:29 AM EST
+# encoding utf-8
+Units mm
+$INDEX
+Panasonic_JW
+$EndINDEX
+$MODULE Panasonic_JW
+Po 0 0 0 15 565B1559 00000000 ~~
+Li Panasonic_JW
+Cd MINIATURE RELAY DPDT
+Kw RELAY
+Sc 0
+AR Relay_DPCO
+Op 0 0 0
+At VIRTUAL
+T0 -8.25 0 1.27 1.27 0 0.20066 N V 21 N "PANASONIC JW"
+T1 -12.25 -7.75 1.27 1.27 0 0.20066 N V 21 N "CR*"
+DS 12.25 -6.5 12.25 6.5 0.15 21
+DS -16.5 -6.5 -16.5 6.5 0.15 21
+DS -16.5 -6.5 12.25 -6.5 0.15 21
+DS -16.5 6.5 12.25 6.5 0.15 21
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po -14.5 3.75
+$EndPAD
+$PAD
+Sh "2" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 0.5 3.75
+$EndPAD
+$PAD
+Sh "3" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 5.5 3.75
+$EndPAD
+$PAD
+Sh "4" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 10.5 3.75
+$EndPAD
+$PAD
+Sh "5" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 10.5 -3.75
+$EndPAD
+$PAD
+Sh "6" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 5.5 -3.75
+$EndPAD
+$PAD
+Sh "7" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po 0.5 -3.75
+$EndPAD
+$PAD
+Sh "8" C 2.5 2.5 0 0 0
+Dr 1.5 0 0
+At STD N 00A8FFFF
+Ne 0 ""
+Po -14.5 -3.75
+$EndPAD
+$EndMODULE Panasonic_JW
+$EndLIBRARY
