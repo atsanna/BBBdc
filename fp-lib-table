@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name panasonic_jw)(type Legacy)(uri "$(KIPRJMOD)/modules/panasonic_jw.mod")(options "")(descr ""))
+  (lib (name V78XX)(type Legacy)(uri "$(KIPRJMOD)/modules/V78XX.mod")(options "")(descr ""))
+)
