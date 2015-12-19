@@ -1,5 +1,6 @@
 (fp_lib_table
   (lib (name panasonic_jw)(type Legacy)(uri "$(KIPRJMOD)/modules/panasonic_jw.mod")(options "")(descr ""))
   (lib (name V78XX)(type Legacy)(uri "$(KIPRJMOD)/modules/V78XX.mod")(options "")(descr ""))
-  (lib (name beagleboard.new)(type KiCad)(uri "$(KIPRJMOD)/modules/beagleboard.pretty")(options "")(descr ""))
+  (lib (name beagleboard)(type KiCad)(uri "$(KIPRJMOD)/modules/beagleboard.pretty")(options "")(descr ""))
+  (lib (name hocuspocus)(type KiCad)(uri "$(KIPRJMOD)/modules/hocuspocus.pretty")(options "")(descr ""))
 )
