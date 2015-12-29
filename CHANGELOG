@@ -1,3 +1,7 @@
+pcb v1.11 released Dec 28, 2015:
+    - first pass at traces finished, DRC check passes
+    - silk screen cleanup & footprint placement alignment
+    - Added pdf docs and 3d updated README pic
 schematic v2.1, released Nov 28, 2015:
     - Added opto-isolators on pins for reading relay status
     - cleanup labels, etc. so ERC passes

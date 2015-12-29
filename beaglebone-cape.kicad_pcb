@@ -3,7 +3,7 @@
   (general
     (links 128)
     (no_connects 0)
-    (area 93.8824 84.786399 182.7236 140.1786)
+    (area 94.437999 85.039999 180.898001 139.750001)
     (thickness 1.6)
     (drawings 12)
     (tracks 333)
@@ -16,7 +16,7 @@
   (title_block
     (title "BeagleBone Black Cape")
     (date 2015-12-28)
-    (rev 1.0)
+    (rev 1.11)
     (comment 1 "License: GPL v3, https://github.com/bubbapizza/BBBdc")
     (comment 2 "Design by Rob Caruso")
     (comment 3 "Layout by Shawn Wilson")
