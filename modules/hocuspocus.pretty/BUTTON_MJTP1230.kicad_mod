@@ -14,7 +14,7 @@
   (pad 2 thru_hole circle (at 3.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -3.25 -2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -3.25 2.25) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIPRJMOD}/packages3d/button.wrl
+  (model ${KIPRJMOD}/packages3d/BUTTON_MJTP1230.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
