@@ -1,0 +1,5 @@
+- Flip around RTC module
+- Add silk screen to RTC
+- fix schematic for A0, A1, A2 on EEPROM
+- fix pcb accordingly
+- add A0, A1, to silk screen
