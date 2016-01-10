@@ -323,7 +323,7 @@ $EndComp
 Text Label 8500 4900 2    60   ~ 0
 DC_3.3V
 Wire Wire Line
-	7100 5000 9600 5000
+	6100 5000 9600 5000
 Wire Wire Line
 	8500 4650 8500 5400
 Wire Wire Line
@@ -341,24 +341,18 @@ Connection ~ 9600 6100
 $Comp
 L C C1
 U 1 1 534A2AC4
-P 7700 5300
-F 0 "C1" H 7700 5400 40  0000 L CNN
-F 1 "0.1uF (25V)" H 7706 5215 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 7738 5150 30  0001 C CNN
-F 3 "~" H 7700 5300 60  0000 C CNN
-	1    7700 5300
+P 6100 5300
+F 0 "C1" H 6100 5400 40  0000 L CNN
+F 1 "0.1uF (25V)" H 6106 5215 40  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 6138 5150 30  0001 C CNN
+F 3 "~" H 6100 5300 60  0000 C CNN
+	1    6100 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 5500 7100 5800
+	7100 5500 7100 5900
 Wire Wire Line
 	6850 5800 7800 5800
-Wire Wire Line
-	7300 5500 7300 5900
-Wire Wire Line
-	6850 5900 7800 5900
-Connection ~ 7100 5800
-Connection ~ 7300 5900
 $Comp
 L GND #PWR01
 U 1 1 534A2BF0
@@ -375,15 +369,13 @@ Wire Wire Line
 Wire Wire Line
 	6100 6450 8500 6450
 Wire Wire Line
-	6100 5800 6100 6450
+	6100 5450 6100 6450
 Wire Wire Line
-	6100 5800 6350 5800
+	6100 5700 6350 5700
 Connection ~ 8500 6450
 Wire Wire Line
-	6100 5900 6350 5900
-Connection ~ 6100 5900
-Wire Wire Line
-	7700 5450 7700 6450
+	6100 5800 6350 5800
+Connection ~ 6100 5700
 $Comp
 L BEAGLEBONE_BLACK P1
 U 1 1 5350D632
@@ -408,7 +400,6 @@ F 3 "~" H 2000 5950 60  0000 C CNN
 $EndComp
 Text Label 8450 6450 2    60   ~ 0
 GND
-Connection ~ 7700 6450
 Wire Wire Line
 	7100 5000 7100 5200
 Wire Wire Line
@@ -416,14 +407,11 @@ Wire Wire Line
 Wire Wire Line
 	7500 5000 7500 5200
 Connection ~ 7300 5000
-Wire Wire Line
-	7700 5000 7700 5150
 Connection ~ 7500 5000
-Connection ~ 7700 5000
 Wire Wire Line
 	7500 5500 7500 5700
 Wire Wire Line
-	7500 5700 7800 5700
+	6850 5700 7800 5700
 Text Notes 6150 4650 0    60   ~ 0
 EEPROM
 Text Notes 2450 4350 0    60   ~ 0
@@ -437,12 +425,12 @@ A2
 $Comp
 L CONN_02X02 P4
 U 1 1 563FB879
-P 6600 5850
-F 0 "P4" H 6600 6000 50  0000 C CNN
-F 1 "JUMPERS" H 6600 5700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 6600 4650 60  0001 C CNN
-F 3 "" H 6600 4650 60  0000 C CNN
-	1    6600 5850
+P 6600 5750
+F 0 "P4" H 6600 5900 50  0000 C CNN
+F 1 "JUMPERS" H 6600 5600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02" H 6600 4550 60  0001 C CNN
+F 3 "" H 6600 4550 60  0000 C CNN
+	1    6600 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1031,4 +1019,14 @@ F 3 "" H 7000 2650 60  0000 C CNN
 	1    7000 2650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6100 5000 6100 5150
+Connection ~ 7100 5000
+Connection ~ 6100 5800
+Connection ~ 7500 5700
+Wire Wire Line
+	7300 5500 7300 5800
+Connection ~ 7300 5800
+Wire Wire Line
+	7100 5900 7800 5900
 $EndSCHEMATC
