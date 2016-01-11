@@ -11,7 +11,7 @@ The cape has the following features:
 * connectors for two external software controlled 12V lamps
 * LED indicators for 12V, 5V, relay engagement, and external lamps
 * 24C256 EEPROM w/ address configurable via jumpers
-* Connectors for realtime clock module
+* headers for an RPi/Arduino-compatible realtime clock module
 
 
 ![BareBone Cape](beaglebone-cape.png)

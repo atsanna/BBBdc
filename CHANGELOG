@@ -1,3 +1,14 @@
+schematic v2.3, released Jan 10, 2015
+    - fixed jumper connections on eeprom, connected to A0/A1 instead of
+      A1/A2
+pcb v1.3 released Jan 10, 2015:
+    - Flipped RTC module so it hangs over the ethernet jack
+    - fixed eeprom traces to match schematic v2.3
+    - changed 12V relay traces from 2mm to 1.5mm
+    - change 5V relay traces to 0.5mm
+    - re-arranged R1 to R5, cleaned up traces
+    - spaced out congested traces above eeprom jumpers a bit better
+    - Added copyright info on front and back silkscreens
 pcb v1.21 released Jan 2, 2015:
     - added 3d models for footprints of push buttons, relays, and V7805 
 pcb v1.2 released Dec 30, 2015:

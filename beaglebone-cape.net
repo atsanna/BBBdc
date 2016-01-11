@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/shawn/src/BBBdc/beaglebone-cape.sch)
-    (date "Sun 10 Jan 2016 05:45:08 PM EST")
+    (date "Sun 10 Jan 2016 06:48:09 PM EST")
     (tool "Eeschema 4.0.1-3.201512221401+6198~38~ubuntu15.10.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -70,7 +70,7 @@
       (tstamp 534A2AC4))
     (comp (ref P1)
       (value BEAGLEBONE_BLACK)
-      (footprint beagleboard:BEAGLEBONE_BLACK)
+      (footprint beagleboard:BEAGLEBONE_BLACK_NO_PERIMETER)
       (libsource (lib beagleboard) (part BEAGLEBONE_BLACK))
       (sheetpath (names /) (tstamps /))
       (tstamp 5350D632))
@@ -206,7 +206,7 @@
       (tstamp 564BDE06))
     (comp (ref U2)
       (value V7805-2000)
-      (footprint V78XX:V78XX)
+      (footprint hocuspocus:V78XX-2000)
       (libsource (lib w_relay) (part V7805-2000))
       (sheetpath (names /) (tstamps /))
       (tstamp 565B7676))

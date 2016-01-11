@@ -39,8 +39,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "BeagleBone Door Lock Cape"
-Date "2015-11-29"
-Rev "2.2"
+Date "2016-01-10"
+Rev "2.3"
 Comp ""
 Comment1 "License: GPL v3, https://github.com/bubbapizza/BBBdc"
 Comment2 "Drawn by Shawn Wilson"
