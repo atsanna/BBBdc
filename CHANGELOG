@@ -1,3 +1,6 @@
+pcb v1.31, RTM v1, released Jan 11, 2015
+    - Mostly minor tweaks to top and bottom silk screens
+    - generated gerbers, ready to send off for mfg
 schematic v2.3, released Jan 10, 2015
     - fixed jumper connections on eeprom, connected to A0/A1 instead of
       A1/A2
