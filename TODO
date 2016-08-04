@@ -1,8 +1,8 @@
 Revisions for v2
 * move resistors farther from pin headers on top
 * make terminal block holes smaller
-* put in R23 !!!!
+DONE * put in R23 !!!! 
 * fix bottom solder mask for relays 
 * put a dot for pin 1 on all chips
 * add revision to silkscreen
-*
+DONE * fix relay wiring 
