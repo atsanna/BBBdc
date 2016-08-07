@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/shawn/src/BBBdc/beaglebone-cape.sch)
-    (date "Sun 07 Aug 2016 03:40:22 PM EDT")
+    (date "Sun 07 Aug 2016 04:16:02 PM EDT")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
