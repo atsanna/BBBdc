@@ -1,5 +1,5 @@
-Revisions for v2
-* move resistors farther from pin headers on top
+Revisions for RTM v2
+DONE * move resistors farther from pin headers on top
 DONE * make terminal block holes smaller
 DONE * put in R23 !!!! 
 DONE * fix bottom solder mask for relays 
