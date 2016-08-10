@@ -15,7 +15,7 @@
   (page A)
   (title_block
     (title "BeagleBone Black Cape")
-    (date 2016-08-07)
+    (date 2016-08-09)
     (rev 1.4)
     (comment 1 "License: GPL v3, https://github.com/bubbapizza/BBBdc")
     (comment 2 "Design by Rob Caruso")
