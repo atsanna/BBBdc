@@ -3,6 +3,8 @@ This is a BeagleBone Black Cape designed for electronically locking or
 unlocking a single door.  It can control either a 12V door strike or
 a 12V door magnet.
 
+You can order this PCB from oshpark here: https://oshpark.com/shared_projects/fA7vdbq6
+
 The cape has the following features:
 * Dual relays to ensure door is closed if a relay fails
 * opto-isolated GPIO inputs for detecting door status and/or relay failure
